@@ -90,8 +90,14 @@ export default {
         content: '婚纱照',
         timestamp: '2019-09-12',
         imgs: [
-          require('@/assets/2019-09-12.png'),
-          require('@/assets/2019-09-12.png'),
+          require('@/assets/2019-09-12-1.png'),
+          require('@/assets/2019-09-12-2.png'),
+          require('@/assets/2019-09-12-3.png'),
+          require('@/assets/2019-09-12-4.png'),
+          require('@/assets/2019-09-12-5.png'),
+          require('@/assets/2019-09-12-6.png'),
+          require('@/assets/2019-09-12-7.png'),
+          require('@/assets/2019-09-12-8.png'),
         ],
       },
       {

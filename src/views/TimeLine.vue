@@ -14,7 +14,7 @@
             <el-carousel height="600px" :interval="4000">
               <template v-for="(img, index) in activity.imgs">
                 <el-carousel-item :key="index">
-                  <el-image :alt="activity.content" :src="img" />
+                  <el-image :alt="activity.content" :src="img" lazy/>
                 </el-carousel-item>
               </template>
             </el-carousel>
