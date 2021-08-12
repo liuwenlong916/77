@@ -9,13 +9,13 @@
 <script>
 // @ is an alias to /src
 import Hello from '@/components/Hello.vue'
-// import Heart from '@/components/Heart.vue'
+import Heart from '@/components/Heart.vue'
 
 export default {
   name: 'Home',
   components: {
     Hello,
-    // Heart,
+    Heart,
   },
 }
 </script>
