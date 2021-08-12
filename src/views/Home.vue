@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <!-- <Heart /> -->
+    <Heart />
     <Hello msg="Welcome to Your XIXI" />
   </div>
 </template>
