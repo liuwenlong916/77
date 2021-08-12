@@ -10,7 +10,14 @@
         >
           <el-card>
             <h4>{{ activity.content }}</h4>
-            <img alt="Vue logo" :src="activity.img" />
+            <!-- <img alt="Vue logo" :src="activity.img" /> -->
+            <el-carousel height="600px" :interval="4000">
+              <template v-for="(img, index) in activity.imgs">
+                <el-carousel-item :key="index">
+                  <el-image :alt="activity.content" :src="img" />
+                </el-carousel-item>
+              </template>
+            </el-carousel>
           </el-card>
         </el-timeline-item>
       </template>

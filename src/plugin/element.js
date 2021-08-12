@@ -7,6 +7,9 @@ import {
   Timeline,
   TimelineItem,
   Card,
+  Carousel,
+  CarouselItem,
+  Image,
 } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
@@ -19,6 +22,9 @@ export default {
     Vue.use(FormItem)
     Vue.use(Timeline)
     Vue.use(TimelineItem)
+    Vue.use(Carousel)
+    Vue.use(CarouselItem)
+    Vue.use(Image)
     Vue.use(Card)
   },
 }
